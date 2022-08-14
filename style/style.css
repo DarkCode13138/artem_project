@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+body {
+	background-image: url("../image/background.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	color: cyan;
+}
+
+.header {
+	text-align: center;
+	font-size: 34px;
+	border-width: 4px;
+	border-color: maroon;
+	border-style: solid;
+	border-radius: 15px;
+	margin: 10px 300px 10px 300px;
+	padding: 15px 5px 15px 5px;
+	background: rgba(55, 55, 255, 0.3);
+	font-family: "Bauhaus 93";
+	letter-spacing: 3px;
+}
+
+.section {
+	text-align: center;
+	text-transform: uppercase;
+	border: 6px white solid;
+	border-radius: 25px;
+	margin: 10px 550px 10px 550px;
+	background: rgba(55, 155, 155, 0.3);
+	font-family: "Algerian";
+	font-size: 28px;
+	padding: 5px;
+}
+
+.text {
+	padding: 10px 300px;
+	font-size: 22px;
+	font-family: "Comic Sans MS";
+	color: greenyellow;
+}
+
+.experience {
+	padding-left: 320px;
+	padding-right: 320px;
+	font-size: 20px;
+	font-family: "Courier New";
+}
+
