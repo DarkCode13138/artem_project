@@ -1,0 +1,66 @@
+:root {
+	--color-lightgreen: #49FFA0;
+	--color-red: #FF0000;
+	--color-blue: rgba(55, 55, 255, 0.3);
+	--color-lightyellow: rgba(166, 251, 80, 0.72);
+	--color-lightblue: #598ae8;
+	--color-pink: #ff00e0;
+	--color-black: #000000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1000px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	font-family: "Comic Sans MS", sans-serif;
+	font-size: 28px;
+	padding: 10px 10px;
+	color: var(--color-lightgreen);
+}
+
+.header-row {
+	box-shadow:0px 0px 11px 3px var(--color-lightyellow)inset,
+	0px 0px 11px 3px var(--color-lightyellow);
+	margin: 10px 15px;
+	padding: 15px;
+	background: var(--color-blue);
+}
+
+.header-row-1__3d-effect {
+	text-shadow: 2px 2px var(--color-red), 3px 3px var(--color-lightgreen);
+}
+
+.header-link {
+	color: var(--color-lightblue);
+	font-style: oblique;
+	text-decoration: none;
+}
+
+.header-link:hover {
+	color: var(--color-pink);
+	font-style: oblique;
+	text-decoration: none;
+	text-shadow: 1px 1px var(--color-greenyellow);
+}
+
+.header-link:active {
+	color: var(--color-black);
+	font-style: oblique;
+	text-decoration: none;
+	text-shadow: 1px 1px var(--color-pink);
+}
+
+.header-form {
+	text-transform: uppercase;
+}
+
