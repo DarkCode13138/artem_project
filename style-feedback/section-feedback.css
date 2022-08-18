@@ -1,0 +1,59 @@
+:root {
+	--color-orange: #ffb400;
+	--color-pink: #ff00e0;
+	--color-greenyellow: #adff2f;
+	--color-black: rgba(0, 0, 0, 0.2);
+	--color-red: #ff001d;
+	--color-cyan: #00e9ff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1000px;
+	padding: 0 40px;
+	margin: 0 auto;
+}
+
+.section {
+	text-align: center;
+}
+
+.btn-form {
+	border: none;
+	border-radius: 10px;
+	font-size: 24px;
+	font-weight: 900;
+	width: 30%;
+	margin: 10px auto;
+	padding: 15px;
+	box-shadow: 1px 1px 11px 5px var(--color-greenyellow) inset, 1px 1px 11px 5px var(--color-greenyellow);
+	cursor: pointer;
+	background: var(--color-black);
+	color: var(--color-greenyellow);
+	font-family: "Algerian", sans-serif;
+	text-transform: uppercase;
+}
+
+.btn-form:hover {
+	box-shadow: 1px 1px 11px 5px var(--color-pink) inset, 1px 1px 11px 5px var(--color-pink);
+	color: var(--color-pink);
+	transition: .5s;
+}
+
+.btn-form:active {
+	box-shadow: 1px 1px 11px 5px var(--color-red) inset, 1px 1px 11px 5px var(--color-red);
+	color: var(--color-red);
+	transition: .5s;
+}
+
+.form-row {
+	font-size: 24px;
+	margin: 15px auto;
+	padding: 10px;
+	color: var(--color-cyan);
+}
