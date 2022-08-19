@@ -31,9 +31,10 @@
 .header-row {
 	box-shadow:0px 0px 11px 3px var(--color-lightyellow)inset,
 	0px 0px 11px 3px var(--color-lightyellow);
-	margin: 10px 15px;
+	margin: 20px 15px;
 	padding: 15px;
 	background: var(--color-blue);
+	border-radius: 7px;
 }
 
 .header-row-1__3d-effect {
@@ -66,4 +67,3 @@
 .header-form {
 	text-transform: uppercase;
 }
-
