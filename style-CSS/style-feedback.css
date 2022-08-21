@@ -14,6 +14,10 @@
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
 .container {
 	max-width: 1000px;
 	padding: 0 40px;
@@ -74,4 +78,20 @@ body {
 	margin: 15px auto;
 	padding: 10px;
 	color: var(--color-cyan);
+}
+
+.visual {
+	font-size: 0;
+}
+
+.visual__img1, .visual__img2, .visual__img3 {
+	display: inline-block;
+	max-width: 33%;
+	height: 350px;
+}
+
+.visual-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
