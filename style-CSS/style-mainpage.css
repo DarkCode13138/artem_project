@@ -6,6 +6,11 @@
 	--color-lightblue: #598ae8;
 	--color-pink: #ff00e0;
 	--color-black: #000000;
+	--color-cyan: rgba(55, 155, 155, 0.3);
+	--color-white: #FFFFFF;
+	--color-greenyellow: #adff2f;
+	--color-gold: #ffd700;
+	--color-dodgerblue: #1080f1;
 }
 
 * {
@@ -20,6 +25,13 @@
 	margin: 0 auto;
 }
 
+.body {
+	background-image: url("../image/background-mainpage.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	color: var(--color-lightgreen);
+}
+
 .header {
 	text-align: center;
 	font-family: "Comic Sans MS", sans-serif;
@@ -29,7 +41,7 @@
 }
 
 .header-row {
-	box-shadow:0px 0px 11px 3px var(--color-lightyellow)inset,
+	box-shadow:0 0 11px 3px var(--color-lightyellow)inset,
 	0px 0px 11px 3px var(--color-lightyellow);
 	margin: 20px 15px;
 	padding: 15px;
@@ -66,4 +78,39 @@
 
 .header-form {
 	text-transform: uppercase;
+}
+
+.section-theme {
+	text-align: center;
+	text-transform: uppercase;
+	border: 6px var(--color-white) solid;
+	border-radius: 25px;
+	max-width: 50%;
+	background: var(--color-cyan);
+	font-family: "Algerian", sans-serif;
+	font-size: 28px;
+	padding: 5px;
+	margin: 0px auto;
+}
+
+.section-theme_text {
+	font-size: 26px;
+	font-family: Calibri, sans-serif;
+	padding: 15px;
+	color: var(--color-greenyellow);
+}
+
+.section-subtopic {
+	color: var(--color-gold);
+}
+
+.section-subtopic_list {
+	font-family: "Bradley Hand ITC", sans-serif;
+	color: var(--color-red);
+}
+
+.section-theme_list__item {
+	font-family: "Courier New", sans-serif;
+	color: var(--color-dodgerblue);
+	margin: 0px 20px;
 }

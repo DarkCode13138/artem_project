@@ -1,4 +1,5 @@
 :root {
+	--color-lime: #5aff00;
 	--color-orange: #ffb400;
 	--color-pink: #ff00e0;
 	--color-greenyellow: #adff2f;
@@ -17,6 +18,23 @@
 	max-width: 1000px;
 	padding: 0 40px;
 	margin: 0 auto;
+}
+
+body {
+	background-image: url("../image/background-feedback.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	color: var(--color-lime);
+}
+
+.header-row-1 {
+	font-size: 34px;
+	font-family: "Algerian", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	color: var(--color-orange);
+	text-shadow: 2px 2px var(--color-pink);
 }
 
 .section {
