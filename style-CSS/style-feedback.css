@@ -1,4 +1,5 @@
 :root {
+	--color-lime: #5aff00;
 	--color-orange: #ffb400;
 	--color-pink: #ff00e0;
 	--color-greenyellow: #adff2f;
@@ -13,10 +14,31 @@
 	box-sizing: border-box;
 }
 
+img {
+	max-width: 100%;
+}
+
 .container {
 	max-width: 1000px;
 	padding: 0 40px;
 	margin: 0 auto;
+}
+
+body {
+	background-image: url("../image/background-feedback.jpg");
+	background-position: center;
+	background-attachment: fixed;
+	color: var(--color-lime);
+}
+
+.header-row-1 {
+	font-size: 34px;
+	font-family: "Algerian", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px;
+	color: var(--color-orange);
+	text-shadow: 2px 2px var(--color-pink);
 }
 
 .section {
@@ -56,4 +78,31 @@
 	margin: 15px auto;
 	padding: 10px;
 	color: var(--color-cyan);
+}
+
+.visual {
+	font-size: 0;
+}
+
+.visual__img1, .visual__img2, .visual__img3 {
+	display: inline-block;
+	max-width: 30%;
+	height: 150px;
+	padding: 10px;
+	margin: 0 15px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 6px 3px var(--color-red) inset, 1px 1px 6px 1px var(--color-red);
+	transition: 1.5s;
+}
+
+.visual-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	transition: 1.5s;
+}
+
+.visual-img:hover {
+	cursor: pointer;
+	transform: scale(1.3);
 }
