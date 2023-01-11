@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 	<title>My second page</title>
 	<meta charset="UTF-8">
@@ -10,47 +10,66 @@
 </head>
 <body>
 <main>
-	<section class="section">
-		<div class="section-head"></div>
-		<div class="theme">
-				<span class="theme__text1 text">
-					В кабинет возвращается реальный руководитель. Ему передали, что вы от его лица решаете все вопросы.
-				</span>
-			<span class="theme__text2 text">
-					А вы точно не работаете в банке? Сможете подменить меня, пока я буду в отпуске?
-				</span>
-		</div>
-		<div class="visual">
-			<img class="visual-img" src="../image/520x520_Цуран.jpg" alt="image">
-		</div>
-		<div class="section-text1">
-				<span class="section-text1__1 text">Совет: А вы точно не работаете в банке? Сможете подменить меня, пока я буду в отпуске? А вы точно не работаете в банке? Сможете подменить меня, пока я буду в отпуске?
-Совет: А вы точно не работаете в банке? Сможет</span>
-			<span class="section-text1__2 text">Ольга Цуран</span>
-		</div>
-		<div class="section-text2 text">
-			Вы решили много банковских задач! Отдохните за просмотром фильмов! Дарим подписку на фильмы про деньги и
-			успех на VOKA TV.
-		</div>
-		<div class="gift">
-			<button type="submit" class="btn-gift text">Получить подарок</button>
-		</div>
-		<div class="feedback text">
-			<div class="feedback_text">
-				Нажимая на кнопку вы даете согласие на <span class="feedback__text">обработку персональных данных</span>
+	<div class="container">
+		<div class="mainblock">
+			<div class="block1">
+				<div class="block1-1">В кабинет возвращается реальный руководитель. Ему передали, что вы от его лица
+					решаете все вопросы.
+				</div>
+				<div class="block1-2">А вы точно не работаете в банке? Сможете подменить меня, пока я буду в отпуске?
+				</div>
 			</div>
-			<form action="../send.php" method="get">
-				<div class="form-row text">
-					<label for="name"></label>
-					<input type="name" name="name" id="name" class="form__input" value="ФИО *">
+			<div class="block2">
+				<div class="block2-1">
+					<img class="block2-1_img" src="../image/520x520_Цуран.jpg" alt="image">
 				</div>
-				<div class="form-row text">
-					<label for="email"></label>
-					<input type="email" name="email" id="email" class="form__input" required value="E-mail *">
+				<div class="block2-2">
+					<div class="sub-block2-2_1">Совет: А вы точно не работаете в банке? Сможете подменить меня, пока я
+						буду в отпуске? А вы точно не работаете в банке? Сможете подменить меня, пока я буду в отпуске?
+						Совет: А вы точно не работаете в банке? Сможет
+					</div>
+					<div class="sub-block2-2_2">Ольга Цуран</div>
 				</div>
-			</form>
+			</div>
+			<div class="block3">
+				<div class="block3-1">
+					<div class="sub-block3-1_1"></div>
+					<div class="sub-block3-1_2">
+						<a class="sub-block3-1_2link" href="">Вы решили много банковских задач! Отдохните за просмотром
+							фильмов! Дарим подписку на фильмы про деньги и успех на VOKA TV.</a>
+					</div>
+				</div>
+				<div class="block3-2">
+					<div class="sub-block3-2_1">
+						<form action="../send.php" method="get" class="sub-block3-2form">
+							<div class="block3-2_form">
+								<label for="name">
+									<input type="name" name="name" id="name" class="block3-2_formInput"
+									       placeholder="ФИО">
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="sub-block3-2_2">
+						<form action="../send.php" method="get" class="sub-block3-2form">
+							<div class="block3-2_form">
+								<label for="email">
+									<input type="email" name="emeil" id="email" class="block3-2_formInput"
+									       placeholder="Email">
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="sub-block3-2_3">Нажимая на кнопку вы даете согласие на 
+						<a class="sub-block3-2_3link" href="">обработку персональных данных</a>
+					</div>
+					<div class="sub-block3-2_4">
+						<button type="submit" class="block3-2_btn">Получить подарок</button>
+					</div>
+				</div>
+			</div>
 		</div>
-	</section>
+	</div>
 </main>
 </body>
 
